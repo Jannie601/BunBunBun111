@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 2f54fc9c7af954e42b2cb55d0e4b4aba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5951992048930353924
+    second: protective suit_0
+  - first:
+      213: -3665075157072919682
+    second: protective suit_1
+  - first:
+      213: -1075972606979237058
+    second: protective suit_2
+  - first:
+      213: 2528406266200827718
+    second: protective suit_3
+  - first:
+      213: -5888719556356783250
+    second: protective suit_4
+  - first:
+      213: 6792366061896702528
+    second: protective suit_5
+  - first:
+      213: 4135160441407788286
+    second: protective suit_6
+  - first:
+      213: 7356216415193519540
+    second: protective suit_7
+  - first:
+      213: -338721317324610662
+    second: protective suit_8
+  - first:
+      213: -7559162317660994672
+    second: protective suit_9
+  - first:
+      213: -5723523309201450047
+    second: protective suit_10
+  - first:
+      213: -6092895384903837534
+    second: protective suit_11
+  - first:
+      213: 8720382921892940465
+    second: protective suit_12
+  - first:
+      213: 6608932863814816636
+    second: protective suit_13
+  - first:
+      213: -5001081777528836395
+    second: protective suit_14
+  - first:
+      213: 7773349394446007712
+    second: protective suit_15
+  - first:
+      213: 544235626658592860
+    second: protective suit_16
+  - first:
+      213: 2197668144621273950
+    second: protective suit_17
+  - first:
+      213: 4265501273392846852
+    second: protective suit_18
+  - first:
+      213: -1859392467586260677
+    second: protective suit_19
+  - first:
+      213: -1797254410621890731
+    second: protective suit_20
+  - first:
+      213: -7847831374782966602
+    second: protective suit_21
+  - first:
+      213: 2123824544013619858
+    second: protective suit_22
+  - first:
+      213: -4991758296235813749
+    second: protective suit_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: protective suit_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 511
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4037176cb39b99250800000000000000
+      internalID: 5951992048930353924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 511
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e734f832099032dc0800000000000000
+      internalID: -3665075157072919682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 511
+        width: 55
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b93fc5d906111f0800000000000000
+      internalID: -1075972606979237058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 511
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647a5c06a14b61320800000000000000
+      internalID: 2528406266200827718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 511
+        width: 55
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63457563c0174ea0800000000000000
+      internalID: -5888719556356783250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_5
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 511
+        width: 56
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a95cf12f4534e50800000000000000
+      internalID: 6792366061896702528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_6
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 511
+        width: 55
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4db5f238a036930800000000000000
+      internalID: 4135160441407788286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_7
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 511
+        width: 55
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5d18ecad7861660800000000000000
+      internalID: 7356216415193519540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_8
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 510
+        width: 55
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93a30ba1ce9c4bf0800000000000000
+      internalID: -338721317324610662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_9
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 512
+        width: 55
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0934c481ce5781790800000000000000
+      internalID: -7559162317660994672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 362
+        width: 90
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb1163ffd5f190b0800000000000000
+      internalID: -5723523309201450047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 362
+        width: 87
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a89031ddefa17ba0800000000000000
+      internalID: -6092895384903837534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 362
+        width: 87
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bacfcc9016050970800000000000000
+      internalID: 8720382921892940465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 361
+        width: 92
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73561c8c65a7bb50800000000000000
+      internalID: 6608932863814816636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 360
+        width: 86
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dee6b5ce96989ab0800000000000000
+      internalID: -5001081777528836395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_15
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 360
+        width: 87
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adb3fad61c70eb60800000000000000
+      internalID: 7773349394446007712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_16
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 361
+        width: 87
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58f8114b638d8700800000000000000
+      internalID: 544235626658592860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 206
+        width: 86
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53c756a88faf7e10800000000000000
+      internalID: 2197668144621273950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 205
+        width: 87
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4089e8dfeca123b30800000000000000
+      internalID: 4265501273392846852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 205
+        width: 86
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31eb77f66c1236e0800000000000000
+      internalID: -1859392467586260677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_20
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 206
+        width: 92
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fc0e3c2aede07e0800000000000000
+      internalID: -1797254410621890731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 207
+        width: 87
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b455e8b1f6e61390800000000000000
+      internalID: -7847831374782966602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_22
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 207
+        width: 87
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29210379b27597d10800000000000000
+      internalID: 2123824544013619858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protective suit_23
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 207
+        width: 90
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84514ce646b9bab0800000000000000
+      internalID: -4991758296235813749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
