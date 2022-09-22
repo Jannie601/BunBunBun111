@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: c69d34478477dd5489c752455fa91f7e
+guid: 641b3751d57d30045988f6cfd7df7143
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5143386347388724764
-    second: water pipe-Recovered_0
+      213: 905024258411163469
+    second: light_0
   - first:
-      213: 6080947906343855497
-    second: water pipe-Recovered_1
+      213: -3603349178357385325
+    second: light_1
   - first:
-      213: 1531038660932694917
-    second: water pipe-Recovered_2
+      213: 9030159923563963872
+    second: light_2
   - first:
-      213: 1164881136923960251
-    second: water pipe-Recovered_3
+      213: -5848930692761323381
+    second: light_3
+  - first:
+      213: 7502624717326422807
+    second: light_4
+  - first:
+      213: -5535422218117265296
+    second: light_5
+  - first:
+      213: -7276768846799801613
+    second: light_6
+  - first:
+      213: -1048652061874451616
+    second: light_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -103,11 +115,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water pipe-Recovered_0
+      name: light_0
       rect:
         serializedVersion: 2
         x: 5
-        y: 274
+        y: 861
         width: 226
         height: 226
       alignment: 0
@@ -117,18 +129,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e91d4d2e550f98b0800000000000000
-      internalID: -5143386347388724764
+      spriteID: d4f65bb94ca4f8c00800000000000000
+      internalID: 905024258411163469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water pipe-Recovered_1
+      name: light_1
       rect:
         serializedVersion: 2
         x: 269
-        y: 274
+        y: 861
         width: 226
         height: 226
       alignment: 0
@@ -138,18 +150,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 985e74f07edd36450800000000000000
-      internalID: 6080947906343855497
+      spriteID: 397ff4e73055efdc0800000000000000
+      internalID: -3603349178357385325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water pipe-Recovered_2
+      name: light_2
       rect:
         serializedVersion: 2
         x: 5
-        y: 0
+        y: 587
         width: 226
         height: 226
       alignment: 0
@@ -159,18 +171,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5837842ec875f3510800000000000000
-      internalID: 1531038660932694917
+      spriteID: 0e5affc4b92915d70800000000000000
+      internalID: 9030159923563963872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water pipe-Recovered_3
+      name: light_3
       rect:
         serializedVersion: 2
         x: 269
-        y: 0
+        y: 587
         width: 226
         height: 226
       alignment: 0
@@ -180,8 +192,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb3e7e3e83d7a2010800000000000000
-      internalID: 1164881136923960251
+      spriteID: b88f41e168c64dea0800000000000000
+      internalID: -5848930692761323381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 318
+        width: 225
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7139e470e6dae1860800000000000000
+      internalID: 7502624717326422807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 321
+        width: 225
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078c05f02da3e23b0800000000000000
+      internalID: -5535422218117265296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 73
+        width: 225
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f27edda949b30b90800000000000000
+      internalID: -7276768846799801613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 76
+        width: 225
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b0ef671807271f0800000000000000
+      internalID: -1048652061874451616
       vertices: []
       indices: 
       edges: []
