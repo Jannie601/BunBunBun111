@@ -55,7 +55,7 @@ public class EnemyAI : MonoBehaviour
 			transform.position = Vector2.MoveTowards(transform.position, target.position, step);
 		}
 
-		anim.SetBool("isRunning", isInChaseRange);
+		anim.SetBool("isRunning", !isInChaseRange);
 
 		isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, WhatIsPlayer);
 		isInAttackRange = Physics2D.OverlapCircle(transform.position, attackRadius, WhatIsPlayer);
@@ -66,8 +66,8 @@ public class EnemyAI : MonoBehaviour
 		movement = dir;
 		if(shouldRotate)
 		{
-			anim.SetFloat("x", dir.x);
-			anim.SetFloat("y", dir.y);
+			anim.SetFloat("X", dir.x);
+			anim.SetFloat("Y", dir.y);
 		}
 
 
