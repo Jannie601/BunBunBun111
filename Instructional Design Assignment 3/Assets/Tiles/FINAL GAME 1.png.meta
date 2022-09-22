@@ -1,7 +1,16 @@
 fileFormatVersion: 2
-guid: 400e1cb759e5fa54ba2605bb51c2f811
+guid: 7934b9480e1cb95468438cb454d0b50e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 545666583336204523
+    second: FINAL GAME 1_0
+  - first:
+      213: 3688684408022766690
+    second: FINAL GAME 1_1
+  - first:
+      213: -374145179730185495
+    second: FINAL GAME 1_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +50,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 133
+  spritePixelsToUnits: 85
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -89,7 +98,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FINAL GAME 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 415
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be83e81ddd8929700800000000000000
+      internalID: 545666583336204523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINAL GAME 1_1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2
+        width: 97
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26418b4fce6d03330800000000000000
+      internalID: 3688684408022766690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINAL GAME 1_2
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 387
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2f1cbf0f4cecaf0800000000000000
+      internalID: -374145179730185495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
