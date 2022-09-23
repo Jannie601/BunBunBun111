@@ -22696,11 +22696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8063683585797647765, guid: 07efe3581ba3d404f96e1754aff176f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.438
+      value: -8.42
       objectReference: {fileID: 0}
     - target: {fileID: 8063683585797647765, guid: 07efe3581ba3d404f96e1754aff176f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.203001
+      value: -8.16
       objectReference: {fileID: 0}
     - target: {fileID: 8063683585797647765, guid: 07efe3581ba3d404f96e1754aff176f9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25364,7 +25364,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1157361493516490524, guid: 72f08ca4a50db4a4d8b140e5461b6038, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1157361493516490525, guid: 72f08ca4a50db4a4d8b140e5461b6038, type: 3}
       propertyPath: m_RootOrder
@@ -30249,7 +30249,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -36100,6 +36100,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3905986685260020583, guid: 71df15b1c684aae41947122f3a70d74c, type: 3}
   m_PrefabInstance: {fileID: 823939029}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &825324943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7064102832523581687, guid: 4d3232590ce9f974081764a1a79400bf, type: 3}
+  m_PrefabInstance: {fileID: 7064102831238835100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &825324945
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825324943}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.17409001}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.65181994}
+  m_EdgeRadius: 0
 --- !u!1001 &826116444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37056,8 +37087,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5669615b5bb374489a848ce1040c80f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkRadius: 1
-  attackRadius: 2
+  checkRadius: 0
+  attackRadius: 0
   shouldRotate: 1
   WhatIsPlayer:
     serializedVersion: 2
