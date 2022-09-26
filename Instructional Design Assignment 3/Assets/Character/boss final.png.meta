@@ -142,69 +142,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss final_0
-      rect:
-        serializedVersion: 2
-        x: 7080
-        y: 2387
-        width: 32
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99e58ec93b9232970800000000000000
-      internalID: 8728866354182512281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss final_1
-      rect:
-        serializedVersion: 2
-        x: 7140
-        y: 2377
-        width: 36
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 369704836d7164480800000000000000
-      internalID: -8915412203499128477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss final_2
-      rect:
-        serializedVersion: 2
-        x: 7200
-        y: 2410
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4128e73e12f16a7e0800000000000000
-      internalID: -1754680774403128812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: boss final_3
       rect:
         serializedVersion: 2
@@ -213,7 +150,7 @@ TextureImporter:
         width: 1549
         height: 2088
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,120 +163,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss final_4
-      rect:
-        serializedVersion: 2
-        x: 7225
-        y: 2323
-        width: 52
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ab24dbcf14e0e260800000000000000
-      internalID: 7124945435714923430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss final_5
-      rect:
-        serializedVersion: 2
-        x: 7387
-        y: 2372
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c89d99e527aec2ea0800000000000000
-      internalID: -5896080035200509556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss final_6
-      rect:
-        serializedVersion: 2
-        x: 7035
-        y: 2350
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c88b864fe60683aa0800000000000000
-      internalID: -6181084458902833012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss final_7
-      rect:
-        serializedVersion: 2
-        x: 7132
-        y: 2335
-        width: 29
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19fac4511e320f100800000000000000
-      internalID: 139651038080446353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss final_8
-      rect:
-        serializedVersion: 2
-        x: 7379
-        y: 2357
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00d3dd34613f3db20800000000000000
-      internalID: 3158135040670252288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: boss final_9
       rect:
         serializedVersion: 2
         x: 5571
-        y: 408
-        width: 1879
-        height: 1930
+        y: 407
+        width: 1889
+        height: 1940
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,27 +179,6 @@ TextureImporter:
       bones: []
       spriteID: 419bc21bbaff3e350800000000000000
       internalID: 6044956237738326292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss final_10
-      rect:
-        serializedVersion: 2
-        x: 7199
-        y: 2328
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f461383ffc666320800000000000000
-      internalID: 2550846082367186162
       vertices: []
       indices: 
       edges: []
@@ -381,7 +192,7 @@ TextureImporter:
         width: 1692
         height: 1998
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,7 +213,7 @@ TextureImporter:
         width: 1751
         height: 2005
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -423,7 +234,7 @@ TextureImporter:
         width: 1497
         height: 1946
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -444,7 +255,7 @@ TextureImporter:
         width: 1496
         height: 1946
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -465,7 +276,7 @@ TextureImporter:
         width: 1751
         height: 2005
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -486,7 +297,7 @@ TextureImporter:
         width: 1699
         height: 1997
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
