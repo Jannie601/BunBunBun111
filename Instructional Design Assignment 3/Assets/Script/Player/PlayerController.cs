@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
     public int maxHealth = 5;  // character maximum health
     public int currentHealth;          
 
+    Rigidbody2D rigidbody2D;
+    float horizontal;
+    float vertical;
 
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
@@ -38,7 +41,24 @@ public class PlayerController : MonoBehaviour
 {
     currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);    // player to reduce or change health
     HPBar.fillAmount     = (float)currentHealth / (float)maxHealth;
+
+    if(Input.GetKeyDown(KeyCode.J))  // press J it will launch the bullets
+{
+    Launch();
 }
 }
+
+
+    public void Launch()
+{
+    GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2D.position + Vector2.up * -1.0f, Quaternion.identity);
+
+    AudioSource.PlayClipAtPoint(projectileSound, Camera.main.transform.position);
+
+    Projectile projectile = projectileObject.GetComponent<Projectile>();
+    projectile.Launch(lookDirection, 300);  //300 is the speed of the bullet 
+}    
+}
+
 
 
