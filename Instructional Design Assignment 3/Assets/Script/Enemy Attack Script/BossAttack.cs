@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BossAttack : MonoBehaviour
 {
-  
+   public AudioClip EnemyDieSound;
     private Animator anim;
     private Vector3 dir;
     private Rigidbody2D rb;
@@ -55,4 +55,20 @@ public class BossAttack : MonoBehaviour
             nextFire = Time.time + fireRate;
         }
     }
+
+     private void OnTriggerEnter2D(Collider2D other) 
+         {
+            PlayerController controller = other.GetComponent<PlayerController>();
+            if(controller != null)
+            {
+                controller.ChangeHealth(-1);   //when player touch the enemy, health will -1
+            }
+            
+        }
+
+     public void killEnemy()
+        {
+            AudioSource.PlayClipAtPoint(EnemyDieSound, Camera.main.transform.position);
+            Destroy(gameObject);
+        }
 }

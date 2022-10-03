@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public int maxHealth = 5;  // character maximum health
     public int currentHealth;          
+  
 
     Rigidbody2D rigidbody2D;
     float horizontal;
@@ -22,42 +23,54 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    currentHealth = maxHealth;   // when start game, playuer will get maximum health
- 
+        currentHealth = maxHealth;   // when start game, playuer will get maximum health
+        animator = GetComponent<Animator>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
     }
+
+ 
 
     // Update is called once per frame
     void Update()
     {
- 
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        Vector2 move = new Vector2(horizontal,vertical);
+
+        if(!Mathf.Approximately(move.x,0.0f)|| !Mathf.Approximately(move.y,0.0f))
+        {
+            lookDirection.Set(move.x,move.y);
+            lookDirection.Normalize();
+        }
+        
+        
+
+       
 
 
-
+    if(Input.GetKeyDown(KeyCode.J))  //press J it will launch the bullet
+       {
+        Launch();
+       }
 
 }
-
     public void ChangeHealth(int amount)
-
 {
     currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);    // player to reduce or change health
-    HPBar.fillAmount     = (float)currentHealth / (float)maxHealth;
-
-    if(Input.GetKeyDown(KeyCode.J))  // press J it will launch the bullets
-{
-    Launch();
-}
+    HPBar.fillAmount = (float)currentHealth / (float)maxHealth;
 }
 
 
-    public void Launch()
-{
-    GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2D.position + Vector2.up * -1.0f, Quaternion.identity);
+     public void Launch()
+    {
+        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2D.position + Vector2.up * -0.1f, Quaternion.identity);
 
-    AudioSource.PlayClipAtPoint(projectileSound, Camera.main.transform.position);
+        AudioSource.PlayClipAtPoint(projectileSound, Camera.main.transform.position);
 
-    Projectile projectile = projectileObject.GetComponent<Projectile>();
-    projectile.Launch(lookDirection, 300);  //300 is the speed of the bullet 
-}    
+        Projectile projectile = projectileObject.GetComponent<Projectile>();
+        projectile.Launch(lookDirection, 300); //300 is the speed of the bullet
+    }
 }
 
 
