@@ -7788,7 +7788,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355579488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.33, y: 16.34, z: 0}
+  m_LocalPosition: {x: -8.08, y: 7.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1278684057}
@@ -41361,6 +41361,7 @@ GameObject:
   - component: {fileID: 1800887060}
   - component: {fileID: 1800887064}
   - component: {fileID: 1800887065}
+  - component: {fileID: 1800887066}
   m_Layer: 0
   m_Name: Boss Idle
   m_TagString: Enemy
@@ -41514,6 +41515,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15.49, y: 20.883001}
   m_EdgeRadius: 0
+--- !u!114 &1800887066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800887059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547ab324277d2ee4e8b068e4551d47f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  vertical: 0
+  changeTime: 0
+  EnemyDieSound: {fileID: 8300000, guid: 450fc446428c599408d24f6a4034e457, type: 3}
 --- !u!1 &1801399256
 GameObject:
   m_ObjectHideFlags: 0
