@@ -20,7 +20,7 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.magnitude > 20.0f) //how far the bullet travel;
+        if(transform.position.magnitude > 10.0f) //how far the bullet travel;
         {
             Destroy(gameObject);
         }
