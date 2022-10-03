@@ -7846,7 +7846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   currentHealth: 3
-  projectilePrefab: {fileID: 5160392564691969503, guid: da217da787260cb43ad32afce2962796, type: 3}
+  projectilePrefab: {fileID: 5160392564691969503, guid: bbe6ddc17e9f562478822da4817d88c9, type: 3}
   projectileSound: {fileID: 8300000, guid: d7955acff9d865a48b506a46ec97c62f, type: 3}
   HPBar: {fileID: 444528814}
 --- !u!1 &356080666
@@ -41799,7 +41799,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800887059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 547ab324277d2ee4e8b068e4551d47f6, type: 3}
   m_Name: 
@@ -41820,7 +41820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 706227ea978f487449a852370ccacdb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoints: 0
+  Hitpoints: 10
   MaxHitpoints: 10
 --- !u!1 &1801399256
 GameObject:

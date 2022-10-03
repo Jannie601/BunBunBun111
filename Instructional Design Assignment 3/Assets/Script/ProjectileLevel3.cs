@@ -19,7 +19,7 @@ public class ProjectileLevel3 : MonoBehaviour
         var enemy = collision.collider.GetComponent<EnemyBehaviour1>();
         if (enemy) 
         {
-            enemy.TakeHit(1);
+            enemy.TakeHit(5);
         }
 
         Destroy(gameObject);
