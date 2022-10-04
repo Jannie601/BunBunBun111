@@ -27,7 +27,7 @@ public class BossAttack : MonoBehaviour
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
 
-        fireRate = 1f; 
+        fireRate = 1.5f; 
         nextFire = Time.time;
         
     }
