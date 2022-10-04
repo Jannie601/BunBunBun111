@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4102568400321408528}
   - component: {fileID: 3866568859510215742}
+  - component: {fileID: 4692115258035747794}
   m_Layer: 0
   m_Name: Treecolor_5
   m_TagString: Untagged
@@ -82,3 +83,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &4692115258035747794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201193037317839700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.67482, y: 5.3862653, z: 0.2}
+  m_Center: {x: -0.08350372, y: -0.20875764, z: 0}
