@@ -12,6 +12,8 @@ public class ProjectileLevel3 : MonoBehaviour
     void Start()
     {
          transform.position += -transform.right * Speed * Time.deltaTime;
+
+  
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
