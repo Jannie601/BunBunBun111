@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5277249732312412513}
   - component: {fileID: 5277249732312412512}
-  - component: {fileID: 5277249732312412515}
   - component: {fileID: 5277249732312412514}
   - component: {fileID: 5277249732312412517}
+  - component: {fileID: 6126149062538144274}
   m_Layer: 0
   m_Name: Poison 1
   m_TagString: Untagged
@@ -85,19 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5277249732312412515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5277249732312412516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25264efc3377e1748be81470626266e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickUpText: {fileID: 0}
 --- !u!61 &5277249732312412514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -137,3 +124,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: -1
+--- !u!114 &6126149062538144274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5277249732312412516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332734d28be74734b9a9c8c3662559c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpText: {fileID: 6436064273606533094, guid: 1a7dbbf85b1b6904f9c8e8987bdbb8f8, type: 3}
